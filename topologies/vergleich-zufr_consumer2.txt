@@ -1,0 +1,21 @@
+router
+# node  	comment     	yPos    xPos
+
+Consumer1	 NA		80	50
+Consumer2	 NA		80	70
+Consumer3	 NA		80	90
+Consumer4	 NA		80	110
+Router1   	 NA         	40	90
+Router2   	 NA          	60	90	
+gw-root0   	 NA          	10	90
+
+link
+# srcNode   	dstNode     	bandwidth   metric  	delay   	queue
+
+Consumer1	Router2       	10Mbps       	1       10ms    	100
+Consumer2      	Router2       	10Mbps       	1       10ms    	100
+Consumer3      	Router2       	10Mbps       	1       10ms    	100
+Consumer4      	Router2       	10Mbps       	1       10ms    	100
+Router1       	gw-root0       	10Mbps		1       10ms    	100
+Router2       	Router1       	10Mbps     	1       10ms    	100
+
