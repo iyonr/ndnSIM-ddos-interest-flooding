@@ -289,7 +289,7 @@ try:
 
     tdm = InterestDdosAttack (name="attack-tdm",
                               algorithms = ["attack-tdm"],
-                              topologies = ["vergleich-pitlast"],
+                              topologies = ["comparison-pitsize"],
                               evils = [3],
                               good  = 0,
                               runs = range(1,2),

@@ -290,7 +290,7 @@ try:
 
     traceback = InterestDdosAttack (name="attack-traceback",
                                     algorithms = ["traceback"],
-                                    topologies = ["vergleich-pitlast"],
+                                    topologies = ["comparison-pitsize"],
                                     evils = [3],
                                     good  = 0,
                                     runs = range(1,2),

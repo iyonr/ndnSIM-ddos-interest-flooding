@@ -295,7 +295,7 @@ try:
 
     pushback = InterestDdosAttack (name="attack-pushback-distributed",
                                    algorithms = ["pushback-distributed"],
-                                   topologies = ["vergleich-pitlast"],
+                                   topologies = ["comparison-pitsize"],
                                    evils = [3],
                                    good  = 0,
                                    runs = range(1,2),

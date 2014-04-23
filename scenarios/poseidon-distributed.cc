@@ -175,7 +175,6 @@ int main (int argc, char**argv)
       string name = Names::FindName (node);
       
       if(name.substr(8,1) == "5" || name.substr(8,1) == "7" || name.substr(8,1) == "8" || name.substr(8,1) == "9")
-      //if(name.substr(8,2) == "16" || name.substr(8,2) == "17" || name.substr(8,2) == "18") 
       {  
 	if (evils.find (node) != evils.end ())
         continue;

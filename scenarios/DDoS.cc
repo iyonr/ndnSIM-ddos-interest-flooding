@@ -175,7 +175,7 @@ int main (int argc, char**argv)
       Ptr<Node> node = leaves.Get (randVar.GetValue ());
       string name = Names::FindName (node);
       
-      if(name.substr(8,1) == "2" || name.substr(8,1) == "4" || name.substr(8,1) == "6")// || name.substr(8,1) == "9")
+      if(name.substr(8,1) == "5" || name.substr(8,1) == "7" || name.substr(8,1) == "8" || name.substr(8,1) == "9")
       {
 	  if (evils.find (node) != evils.end ())
 	    continue;

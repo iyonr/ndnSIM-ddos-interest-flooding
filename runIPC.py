@@ -289,7 +289,7 @@ try:
 
     ipc = InterestDdosAttack (name="attack-ipc",
                                     algorithms = ["attack-ipc"],
-                                    topologies = ["vergleich-pitlast"],
+                                    topologies = ["comparison-pitsize"],
                                     evils = [3],
                                     good  = 0,
                                     runs = range(1,2),
